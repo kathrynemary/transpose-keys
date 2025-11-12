@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+li {
+  margin-bottom: 40px;
+}
+.coming-soon {
+  margin-bottom: 0;
+  background-color: gainsboro;
+  text-decoration: line-through;
+}
+
+input {
+  margin: 0 20px 0 5px;
+  width: 30px;
+}
