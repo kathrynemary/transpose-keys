@@ -12,7 +12,7 @@ import { capoLogic, removeCapoLogic } from "./translate-capo-logic";
 
 function TranslateCapoDiv() {
   const [chordShape, setChordShape] = useState("");
-  const [capoPosition, setCapoPosition] = useState();
+  const [capoPosition, setCapoPosition] = useState<number>(0);
   const [capoResults, setCapoResults] = useState("");
 
   const checkChordShape = (event: { target: { value: any } }) => {
@@ -51,7 +51,7 @@ function TranslateCapoDiv() {
 
 function RemoveCapoDiv() {
   const [chordShape, setChordShape] = useState("");
-  const [capoPosition, setCapoPosition] = useState();
+  const [capoPosition, setCapoPosition] = useState<number>(0);
   const [capoResults, setCapoResults] = useState("");
 
   const checkChordShape = (event: { target: { value: any } }) => {
